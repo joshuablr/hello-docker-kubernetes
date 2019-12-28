@@ -1,0 +1,9 @@
+version: '3.3'
+
+services:
+  api:
+    image: 911456480347.dkr.ecr.ap-south-1.amazonaws.com/udacity:v1.1
+    ports:
+      - "8080:5000"
+
+  
