@@ -64,3 +64,5 @@ Using the docker stack we are deploying it in kubernetes as service.
     `docker stack --orchestrator kubernetes ls`
 - To delete an deployment 
     `docker stack --orchestrator kubernetes rm hello-py-api`
+- get the deployment names
+     `kubectl get deployments`
